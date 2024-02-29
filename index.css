@@ -13,4 +13,5 @@ ol {
 
 li {
     text-align: center;
+    border: 1px solid red;
 }
