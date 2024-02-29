@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; /* custom declaration 1 */
+    
+}
+body{
+    background: linear-gradient(135deg, purple, pink); /* custom declaration 4 */
+    color: white;
+}
+h1{
+    font-family: fantasy;
+    color: lightpink;
+}
+ul{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+ol{
+    font-weight: bold;
+    list-style-position: inside;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+li{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: red;
+    color: blue;
+    background-color: lightpink;
+    font-size: 20px;
+    width: 200px;
+}
+.profile-picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; /* custom declaration 2 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* custom declaration 3 */
+}
+h3{
+    text-decoration: underline;
+    padding-left: 0px;
+}
+p{
+    padding: 20px 0px 20px 0px;
+}
+h1{
+    font-size: 30px;
+}
+.container{
+    text-align: center;
+}
+img {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
