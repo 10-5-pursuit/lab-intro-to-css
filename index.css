@@ -17,3 +17,7 @@ li {
     color: blue;
     background-color: lightpink;
 }
+
+img {
+    height: 200px;
+}
