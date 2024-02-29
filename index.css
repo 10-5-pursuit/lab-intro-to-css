@@ -21,3 +21,7 @@ li {
 img {
     height: 200px;
 }
+
+body {
+    font-family: sans-serif;
+}
