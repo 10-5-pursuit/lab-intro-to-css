@@ -1,8 +1,12 @@
 h1 {
-    font-family: 'Fantasy';
+    font-family: 'Fantasy', cursive;
     color: purple;
 }
 
 ul {
     list-style-type: none;
+}
+
+ol {
+    font-weight: bold;
 }
