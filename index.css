@@ -14,4 +14,6 @@ ol {
 li {
     text-align: center;
     border: 1px solid red;
+    color: blue;
+    background-color: lightpink;
 }
