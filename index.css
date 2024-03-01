@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Fantasy', cursive;
+    color: purple;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+ol {
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    color: blue;
+    background-color: lightpink;
+    padding: 5px 10px;
+}
+
+li i {
+    margin-right: 8px;
+    /* Add some space between the icon and the text */
+    color: #333;
+    /* Set the color of the icon (optional) */
+}
+
+
+img {
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
