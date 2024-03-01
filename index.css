@@ -1,0 +1,35 @@
+/* body {
+    background: black;
+} */
+
+h1{
+    font-family: fantasy;
+    color: purple;
+    font-style: ;
+}
+img {
+    display: grid;
+    place-items: center;
+  }
+
+  h3{
+    text-decoration: underline;
+}  
+li{
+    border-style: solid;
+    border-radius: 15px;    
+    border-width: 1px;
+    text-align: center;
+    font-weight: bold;
+    color: #841ff6;
+    background-color: pink;
+
+}
+ul{
+    list-style: none;
+}
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
