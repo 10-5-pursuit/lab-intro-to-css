@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(-45deg, #ffffff, #e66798, #d5a223, #e1f0ed);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;}
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+h3 {
+        text-decoration: underline;
+    }
+
+h1 {
+    font-family: fantasy;
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ol {
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li {
+    text-align: center;
+    color: blue;
+    background-color: lightpink;
+    border-color: red;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.lib {
+    padding-left: -10px;
+}
