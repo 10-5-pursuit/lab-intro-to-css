@@ -1,0 +1,54 @@
+h1 {
+    color: purple;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.library {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+    font-family: cursive;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color: red;
+}
+
+.email {
+    color:blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
