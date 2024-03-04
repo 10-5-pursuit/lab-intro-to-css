@@ -1,0 +1,40 @@
+h1{
+    font-family: fantasy;
+    color: purple;
+}
+.no-bullets {
+    list-style-type: none; 
+}
+.bold-letters{
+    font-weight: bold;
+}
+.all-lists{
+    text-align: center; 
+    border: 1px solid red; 
+    border-radius: 5px; 
+    padding: 30px;
+    list-style-position: inside;
+    color: blue;
+    background-color: rgb(250, 204, 212);
+}
+.image-container {
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+}
+  
+.image-container img {
+    width: 100%;
+    height: auto; 
+}
+.h3Headings{
+    text-decoration: underline; 
+}
+.padding-control{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.font-change{
+    font-size: 30px;
+}
+
