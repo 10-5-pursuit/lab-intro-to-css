@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="/Users/diamondbrown/Documents/Pursuit/lab-intro-to-css/personalPage.css">
+
     <meta charset="utf-8" />
     <title>CSS Intro</title>
   </head>
   <body>
-    <h1>Your Name Here</h1>
+    <h1 class="font-change">Diamond Brown</h1>
     <div>
-      <p>
+      <p class="padding-control">
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
       </p>
     </div>
-
-    <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
+    <div class="image-container">
+      <img
+      src="/Users/diamondbrown/Pictures/Photos Library.photoslibrary/resources/derivatives/9/9E993CBE-EAA3-4F34-81DF-7CA5A94D7110_1_105_c.jpeg"
+      alt="a picture of person"
     />
-
-    <div>
-      <h3>Here are some of my Skills!</h3>
-      <ul>
-        <h3>Languages</h3>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-      </ul>
-
-      <ol>
-        <h3>Libraries</h3>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
-      </ol>
     </div>
 
     <div>
-      <h3>Hardest Bug So Far</h3>
-      <p>
+      <h3 class="h3Headings">Here are some of my Skills!</h3>
+      <ul class="no-bullets">
+        <h3>Languages</h3>
+        <div class="all-lists">
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </div>
+        </ul>
+
+    
+      <ol class="bold-letters">
+        <h3 class="h3Headings">Libraries</h3>
+        <div class="all-lists">
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Node</li>
+          <li>Bootstrap</li>
+        </div>
+        </ol>
+    </div>
+
+    <div>
+      <h3 class="h3Headings">Hardest Bug So Far</h3>
+      <p class="padding-control">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      <p class="padding-control">I came up with a totally sick solution though by doing ...</p>
     </div>
 
     <h2>Contact Me</h2>
@@ -53,10 +61,12 @@
       <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>
 
-    <ul>
-      <li><a href="github.com">github link</a></li>
-      <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
+    <ul class="no-bullets">
+      <div class="all-lists">
+        <li><a href="github.com">github link</a></li>
+        <li><a href="linkedin.com">LinkedIn link</a></li>
+        <li><a href="angellist.com">Angel list link</a></li>
+      </div>
     </ul>
   </body>
 </html>
