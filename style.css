@@ -1,0 +1,77 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+} */
+body {
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+
+h1 {
+    font-family: 'Fantasy';
+    color: purple;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+ol{
+    list-style-position: inside;
+    font-weight: bold;
+}
+ol li {
+    text-align: center;
+    
+}
+li{
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px dashed red;
+    border-radius: 50px;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+   
+}
+
+.img1{
+    text-align: center;
+    
+    
+}
+.img1 img{
+    height: 200px;
+    box-shadow: black;
+    border-radius: 50%;
+    opacity: 0.5;
+    text-align: center;
+    
+   
+}
+
+
+h3{
+    text-decoration: underline;
+    color:darkred
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:darkslateblue
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    color:blueviolet
+}
