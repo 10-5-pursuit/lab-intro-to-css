@@ -1,0 +1,94 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 30px;
+    background: linear-gradient(-45deg, #aa9898, #9f9096, #fffffe, #586262);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;}
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+h3 {
+        text-decoration: underline;
+        padding: 10px;
+        text-align: center;
+    }
+
+h1 {
+    font-family: fantasy;
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px ridge;
+    border-radius: 10px;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ol {
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    border: 1px solid #2a0f0f;
+    padding: 30px 20px 30px 20px;
+    margin: 5px; 
+    background-color: #f7f3ee;
+    width: 200px; 
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: #586262;
+    
+}
+li:hover {
+    color: rgba(0, 1, 1, 20);
+background: radial-gradient(white,rgba(141, 127, 127, 0.383),white);
+}
+
+ul {
+    text-align: center;
+}
+
+.links {
+    display: inline-flex;
+    padding: 10px;
+    text-align: center;
+}
+.lib {
+    display: inline-block;
+
+}
+
+
+nav .link__child {
+    padding: 10px;
+    border: 1px solid black;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
