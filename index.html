@@ -3,60 +3,57 @@
   <head>
     <meta charset="utf-8" />
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
-      <p>
-        This is a bunch of information about myself. I'm from here and there and
-        discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
-      </p>
-    </div>
+    <div class="container">
+      <h1>Your Name Here</h1>
+      <div>
+        <p>
+          This is where a bunch of information about myself would go. Talking about where I'm from and how I       discovered my love of programming. Then I go into what else I'm working on, and interested in, when not I'm busy doing this and that.
+        </p>
+      </div>
 
-    <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
-    />
+      <img src="assets/jmoncayo.png"/>
 
-    <div>
-      <h3>Here are some of my Skills!</h3>
+      <div>
+        <h3 id="skills">Here are some of my Skills!</h3>
+        <ul id="ul-no-bullets">
+          <h3>Languages</h3>
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+
+        <ol>
+          <h3>Libraries</h3>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Node</li>
+          <li>Bootstrap</li>
+        </ol>
+      </div>
+
+      <div>
+        <h3>Hardest Bug So Far</h3>
+        <p>
+          My hardest bug I ever came across was not in the software at all. 
+        </p>
+        <p>I came up with a innovative solution by doing ...</p>
+      </div>
+
+      <h2>Contact Me</h2>
+      <div>
+        Email me at:
+        <a href="mailto:jmoncayo@pursuit.org" target="_top">jmoncayo@pursuit.org</a>
+      </div>
+
       <ul>
-        <h3>Languages</h3>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li><a href="https://github.com/jmoncayo-pursuit">github link</a></li>
+        <li><a href="https://www.linkedin.com/in/jeanmoncayo247/">LinkedIn link</a></li>
+        <li><a href="https://pursuit.codetrack.dev/fellow/1236">CodeTrack link</a></li>
       </ul>
-
-      <ol>
-        <h3>Libraries</h3>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
-      </ol>
     </div>
-
-    <div>
-      <h3>Hardest Bug So Far</h3>
-      <p>
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
-      </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
-    </div>
-
-    <h2>Contact Me</h2>
-    <div>
-      Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
-    </div>
-
-    <ul>
-      <li><a href="github.com">github link</a></li>
-      <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
-    </ul>
   </body>
 </html>
